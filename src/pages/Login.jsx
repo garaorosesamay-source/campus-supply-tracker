@@ -142,7 +142,7 @@ function Login() {
             <h2 className="fw-bold mt-2 mb-0 fs-4">
               Campus Supply Tracker
             </h2>
-            <h1>qwertyuiop</h1>
+            <h1 classname="text-warning fw-bold">qwertyuiop</h1>
 
             <p className="text-body-secondary small mt-1 mb-0">
               Login || authorized personnel only
