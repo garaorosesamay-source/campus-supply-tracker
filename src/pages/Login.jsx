@@ -2,10 +2,6 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useAdmin } from '../context/AdminContext.jsx'
 
-// PICTURE CONTAINER
-// Put your picture in the "public" folder (frontend/public/login-bg.jpg)
-// and change the file name below if yours is different.
-// If the picture is missing, the gradient still shows, so the page will not crash.
 const BACKGROUND_IMAGE = '/login-bg.jpg'
 
 function Login() {
@@ -83,7 +79,7 @@ function Login() {
   }
 
   return (
-    // Background picture container (picture + gradient overlay)
+  
     <div
       className="d-flex flex-column flex-lg-row justify-content-center align-items-center p-3 p-md-5"
       style={{
