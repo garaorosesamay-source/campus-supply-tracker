@@ -128,9 +128,6 @@ function Login() {
         </figure>
       </div>
 
-      {/* Login form */}
-      {/* data-bs-theme="light" keeps the text dark and the inputs white,
-          even when the browser/page is in dark mode */}
       <div
         data-bs-theme="light"
         className="card mx-3 border-0 shadow-lg bg-white bg-opacity-90 text-dark"
@@ -145,6 +142,7 @@ function Login() {
             <h2 className="fw-bold mt-2 mb-0 fs-4">
               Campus Supply Tracker
             </h2>
+            <h1>qwertyuiop</h1>
 
             <p className="text-body-secondary small mt-1 mb-0">
               Login || authorized personnel only
